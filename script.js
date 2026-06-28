@@ -71,7 +71,6 @@ nextBtn.addEventListener("click", function () {
 // part 6
 // pushed by: Bhagyashree
 // Description: Transforms metrics into percentage charts, updates final summary boards, templates candidate tracking info, and manages long-term high score indicators
-
 function showResult() {
     quizScreen.classList.add("hidden");
     resultScreen.classList.remove("hidden");

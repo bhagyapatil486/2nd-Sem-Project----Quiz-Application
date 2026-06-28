@@ -71,3 +71,28 @@ nextBtn.addEventListener("click", function () {
 // part 6
 // pushed by: Bhagyashree
 // Description: Transforms metrics into percentage charts, updates final summary boards, templates candidate tracking info, and manages long-term high score indicators
+
+function showResult() {
+    quizScreen.classList.add("hidden");
+    resultScreen.classList.remove("hidden");
+
+    let percentage = Math.round((score / questions.length) * 100);
+
+    document.documentElement.style.setProperty(
+        "--percentage",
+        percentage * 3.6 + "deg"
+    );
+
+    document.getElementById("percentage-display").innerText = percentage + "%";
+    document.getElementById("correct-count").innerText = score;
+    document.getElementById("wrong-count").innerText = questions.length - score;
+    document.getElementById("final-score").innerText = `${score}/${questions.length}`;
+
+    result.innerHTML = `
+        <strong>Candidate Name:</strong> ${userName}<br>
+        <strong>Total Questions:</strong> ${questions.length}<br>
+        <strong>Completion Rate:</strong> 100%<br>
+        <strong>Status:</strong> ${percentage >= 50 ? "PASS ✅" : "FAIL ❌"}
+    `;
+    saveBestScore(percentage);
+}

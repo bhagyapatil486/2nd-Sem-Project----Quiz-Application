@@ -17,3 +17,15 @@
     background: #f8fafc;
     border-color: #1e40af;
 }
+
+.correct {
+    background: #dcfce7 !important;
+    border-color: #16a34a !important;
+    color: #166534 !important;
+}
+
+.wrong {
+    background: #fee2e2 !important;
+    border-color: #dc2626 !important;
+    color: #991b1b !important;
+}

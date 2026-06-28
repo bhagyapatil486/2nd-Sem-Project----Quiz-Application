@@ -1,3 +1,33 @@
+/* part 1 */
+/* pushed by: Abhishek */
+/* Description: Implements root application topography, foundational document layouts, canvas constraints, and global typography scaling */
+
+
+
+
+
+
+
+
+
+
+
+/* part 2 */
+/* pushed by: Disha */
+/* Description: Structural design and micro-interactions for input entry vectors, global contextual triggers, and questionnaire counters */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // part 3
 // pushed by: Sahil
@@ -20,6 +50,14 @@ startForm.addEventListener("submit", function (e) {
 
     showQuestion();
 });
+
+/* part 4 */
+/* pushed by: Uttkarsh */
+/* Description: Design specifications for the metric summary dashboard, layout parameters for statistical modules, and the custom radial conic-gradient indicator */
+
+
+
+
 
 
 

@@ -67,3 +67,6 @@ nextBtn.addEventListener("click", function () {
         showResult();
     }
 });
+
+// part 6
+// pushed by: Bhagyashree

@@ -50,3 +50,58 @@
     font-weight: 600;
     color: #1e40af;
 }
+
+
+
+
+
+
+
+
+
+/* part 5 */
+/* pushed by: Alok */
+/* Description: Summary metadata box rulesets, post-assessment interaction layouts, and specialized dark mode mappings for result panels */
+#result {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.report-card button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: #4f46e5;
+    border-radius: 8px;
+}
+
+.report-card button:hover {
+    background: #4338ca;
+}
+
+.dark-mode .report-card {
+    background: #1e293b;
+}
+
+.dark-mode .score-circle::before {
+    background: #1e293b;
+}
+
+.dark-mode .detail-box {
+    background: #334155;
+    border-color: #475569;
+}
+
+.dark-mode .detail-box p {
+    color: #cbd5e1;
+}
+
+.dark-mode #result {
+    background: #334155;
+    border-color: #475569;
+}

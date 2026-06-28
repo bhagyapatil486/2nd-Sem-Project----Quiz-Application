@@ -96,3 +96,22 @@ function showResult() {
     `;
     saveBestScore(percentage);
 }
+
+function saveBestScore(currentScore) {
+    let best = localStorage.getItem("bestScore");
+
+    if (best === null || currentScore > Number(best)) {
+        localStorage.setItem("bestScore", currentScore);
+        best = currentScore;
+    }
+
+    bestScore.innerText = `Best Score: ${best}%`;
+}
+
+function showBestScore() {
+    let best = localStorage.getItem("bestScore");
+
+    if (best !== null) {
+        bestScore.innerText = `Best Score: ${best}%`;
+    }
+}

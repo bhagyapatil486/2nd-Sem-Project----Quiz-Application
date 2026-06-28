@@ -1,1 +1,19 @@
+/* part 3 */
+/* pushed by: Sahil */
+/* Description: Aesthetic wrappers, selection behavior states, response evaluation states, and scoring system containers */
+.option-btn {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+    padding: 14px;
+    background: white;
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
 
+.option-btn:hover {
+    background: #f8fafc;
+    border-color: #1e40af;
+}

@@ -15,20 +15,48 @@
 /* part 2 */
 /* pushed by: Disha */
 
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
 
+input[type="text"]:focus {
+    outline: none;
+    border-color: #1e40af;
+}
 
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #1e40af;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
 
+button:hover {
+    background: #1d4ed8;
+}
 
+#question-count {
+    background: #eff6ff;
+    border-left: 4px solid #1e40af;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
 
-
-
-
-
-
-
-
-
-
+#question {
+    margin-bottom: 20px;
+}
 
 /* part 3 */
 /* pushed by: Sahil */

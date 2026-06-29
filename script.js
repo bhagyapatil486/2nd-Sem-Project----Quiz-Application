@@ -64,16 +64,32 @@ startForm.addEventListener("submit", function (e) {
 
 /* part 4 */
 /* pushed by: Uttkarsh */
+// Description: Renders the active question object, coordinates iteration tracking indicators, and injects item variants into custom markup objects
 
+function showQuestion() {
+    optionsDiv.innerHTML = "";
+    feedback.innerText = "";
+    nextBtn.classList.add("hidden");
 
+    let q = questions[currentQuestion];
 
+    questionCount.innerText = `Question ${currentQuestion + 1} of ${questions.length}`;
 
+    questionText.innerText = q.question;
 
+    q.options.forEach(function (option) {
+        let button = document.createElement("button");
 
+        button.innerText = option;
+        button.classList.add("option-btn");
 
+        button.addEventListener("click", function () {
+            checkAnswer(button, option);
+        });
 
-
-
+        optionsDiv.appendChild(button);
+    });
+}
 
 
 

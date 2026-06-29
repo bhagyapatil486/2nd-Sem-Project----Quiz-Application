@@ -4,11 +4,11 @@ An interactive browser-based quiz application built with vanilla HTML, CSS, and 
 
 ## 🚀 Live Demo
 
- https://bhagyapatil486.github.io/2nd-Sem-Project----Quiz-Application/
+https://bhagyapatil486.github.io/2nd-Sem-Project----Quiz-Application/
 
 ## 📸 Preview
 
- ![Quiz Master Preview](preview.png)
+![Quiz Master Preview](preview.png)
 
 ## ✨ Features
 
@@ -74,12 +74,12 @@ The current question set covers core JavaScript and Web Development concepts:
 
 Thank you to everyone who contributed to this project!
 
-- Bhagyashree Patil (@bhagyapatil486)
-- Uttkarsh Chambiyal (@Uttkarshchambiyal)
-- Sahil Behra (@sahilbehera1012007-cyber)
-- Disha Rai (@disharai123a-oss)
-- Abhishek (@abhishek-d19)
-- Alok Kumar (@alokrm2008-a11y)
+- Bhagyashree Patil ([@bhagyapatil486](https://github.com/bhagyapatil486))
+- Uttkarsh Chambiyal ([@Uttkarshchambiyal](https://github.com/Uttkarshchambiyal))
+- Sahil Behra ([@sahilbehera1012007-cyber](https://github.com/sahilbehera1012007-cyber))
+- Disha Rai ([@disharai123a-oss](https://github.com/disharai123a-oss))
+- Abhishek ([@abhishek-d19](https://github.com/abhishek-d19))
+- Alok Kumar ([@alokrm2008-a11y](https://github.com/alokrm2008-a11y))
 
 ## 📄 License
 

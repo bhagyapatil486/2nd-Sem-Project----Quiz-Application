@@ -2,7 +2,76 @@
 /* pushed by: Abhishek */
 
 
+// part 1
+// pushed by: Abhishek
+// Description: Handlers for dark/light state rendering engine, localStorage storage validation triggers, and the core questions repository
+const themeBtn = document.getElementById("theme-btn");
 
+themeBtn.addEventListener("click", toggleTheme);
+
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeBtn.innerText = "☀️";
+        localStorage.setItem("theme", "dark");
+    } else {
+        themeBtn.innerText = "🌙";
+        localStorage.setItem("theme", "light");
+    }
+}
+
+function loadTheme() {
+    let savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark-mode");
+        themeBtn.innerText = "☀️";
+    }
+}
+
+const questions = [
+    {
+        question: "Which language runs in the browser?",
+        options: ["Java", "Python", "JavaScript", "C++"],
+        answer: "JavaScript"
+    },
+    {
+        question: "What does DOM stand for?",
+        options: [
+            "Document Object Model",
+            "Data Object Method",
+            "Digital Object Manager",
+            "Desktop Output Module"
+        ],
+        answer: "Document Object Model"
+    },
+    {
+        question: "Which method adds an event listener?",
+        options: [
+            "addHandler()",
+            "addEventListener()",
+            "attachEvent()",
+            "listen()"
+        ],
+        answer: "addEventListener()"
+    },
+    {
+        question: "Which storage remains after closing the browser?",
+        options: [
+            "SessionStorage",
+            "LocalStorage",
+            "CacheStorage",
+            "TempStorage"
+        ],
+        answer: "LocalStorage"
+    },
+    {
+        question: "Which array method creates a new array?",
+        options: ["push", "map", "splice", "pop"],
+        answer: "map"
+    }
+];
 
 
 

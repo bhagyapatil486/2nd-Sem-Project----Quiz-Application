@@ -8,7 +8,7 @@ An interactive browser-based quiz application built with vanilla HTML, CSS, and 
 
 ## 📸 Preview
 
-> _Add a screenshot of your app here_
+ ![Quiz Master Preview](preview.png)
 
 ## ✨ Features
 

@@ -15,7 +15,20 @@
 /* part 2 */
 /* pushed by: Disha */
 
+let currentQuestion = 0;
+let score = 0;
+let userName = "";
 
+const startForm = document.getElementById("start-form");
+const username = document.getElementById("username");
+
+const startScreen = document.getElementById("start-screen");
+const quizScreen = document.getElementById("quiz-screen");
+const resultScreen = document.getElementById("result-screen");
+
+const questionText = document.getElementById("question");
+const optionsDiv = document.getElementById("options");
+const feedback = document.getElementById("feedback");
 
 
 

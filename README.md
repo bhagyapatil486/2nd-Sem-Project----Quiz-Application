@@ -4,7 +4,7 @@ An interactive browser-based quiz application built with vanilla HTML, CSS, and 
 
 ## 🚀 Live Demo
 
-> _Add your GitHub Pages / deployment link here_
+ https://bhagyapatil486.github.io/2nd-Sem-Project----Quiz-Application/
 
 ## 📸 Preview
 

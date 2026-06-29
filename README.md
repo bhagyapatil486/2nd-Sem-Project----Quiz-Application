@@ -72,9 +72,14 @@ The current question set covers core JavaScript and Web Development concepts:
 
 ## 🤝 Contributors
 
-Thanks to all 5 contributors who worked on this project!
+Thank you to everyone who contributed to this project!
 
-<!-- You can tag teammates here: @username -->
+-Bhagyashree Patil (@bhagyapatil486)
+-Uttkarsh Chambiyal (@Uttkarshchambiyal)
+-Sahil Behra (@sahilbehera1012007-cyber)
+-Disha Rai (@disharai123a-oss)
+-Abhishek  (@abhishek-d19)
+-Alok Kumar (@alokrm2008-a11y)
 
 ## 📄 License
 

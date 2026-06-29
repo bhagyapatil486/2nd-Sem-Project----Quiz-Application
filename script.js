@@ -30,15 +30,13 @@ const questionText = document.getElementById("question");
 const optionsDiv = document.getElementById("options");
 const feedback = document.getElementById("feedback");
 
+const scoreText = document.getElementById("score");
+const nextBtn = document.getElementById("next-btn");
 
+const result = document.getElementById("result");
+const questionCount = document.getElementById("question-count");
 
-
-
-
-
-
-
-
+const bestScore = document.getElementById("best-score");
 
 
 
